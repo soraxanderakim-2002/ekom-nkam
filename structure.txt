@@ -1,0 +1,57 @@
+🌐 Projet de Site Web Vitrine : Akokang (Est-Cameroun)
+1. Landing Page (Page d'accueil) : Akokang
+
+    Accroche principale : Bienvenue à Akokang, le joyau caché de la Région de l’Est. Entre traditions ancestrales, nature luxuriante et promesse d'avenir.
+
+    Atmosphère politique et institutionnelle :
+
+        Un aperçu de la dynamique locale, de l'engagement communautaire et des initiatives portées par la Mairie d’Akokang pour le développement durable et l'accueil des visiteurs.
+
+        Le soutien institutionnel du Ministère du Tourisme et des Loisirs, qui met en valeur le potentiel écotouristique unique de la localité.
+
+    Appel à l'action (CTA) : « Plongez dans l'histoire et découvrez nos merveilles » (pour lancer le scrollytelling).
+
+2. Expérience de Scrollytelling Continu : Immersion au Cœur d'Akokang
+📜 Étape 1 : L'Histoire et les Origines de la Région
+
+    Le récit : De la genèse du peuplement aux traditions orales transmises de génération en génération. Plongez dans l'histoire des peuples de la Kadey, gardiens de la forêt et de traditions riches en sagesse.
+
+    Slogan design accrocheur : « Akokang : Là où les racines du passé nourrissent l'avenir. »
+
+🏛️ Étape 2 : Galerie des Sites Touristiques
+
+    Le contenu interactif : Défilement de photos immersives et de slogans percutants :
+
+        La Forêt Sacrée & les Sentiers d’Éco-Randonnée : « Marchez sur les traces des ancêtres, au rythme de la canopée. »
+
+        Les Berges et Cours d'Eau : « La quiétude de l'eau douce, miroir de la sérénité camerounaise. »
+
+        Le Panorama du Village : « Un coucher de soleil inoubliable sur les toits d’Akokang. »
+
+🎭 Étape 3 : Culture, Traditions et Art de Vivre
+
+    Le récit interactif : En poursuivant le défilement, le visiteur plonge dans l'âme d'Akokang :
+
+        Les rites, les danses traditionnelles rythmées par les percussions locales et l'art vestimentaire.
+
+        L'artisanat local (sculptures sur bois, vannerie).
+
+    La Gastronomie Traditionnelle : Un voyage des sens à travers les saveurs de l'Est :
+
+        Le Nnam (viande ou poisson enveloppé dans des feuilles de bananier et cuit à l'étouffée).
+
+        Le manioc sous toutes ses formes (macabo, bâton de manioc) accompagné de sauces forestières raffinées.
+
+    Slogan culinaire : « Akokang dans l'assiette : un festin authentique aux arômes de la terre. »
+
+🏡 Étape 4 : Hébergement et Séjour (Le Bouquet Final)
+
+    Le récit interactif : Pour conclure le voyage, découvrez comment prolonger l'expérience sur place :
+
+        Écolodges et campements touristiques intégrés : Pour vivre au plus près de la nature dans le respect de l'environnement.
+
+        Auberges locales chaleureuses : Confort authentique et hospitalité légendaire des habitants pour un séjour en toute convivialité.
+
+    Slogan hébergement : « Dormez sous les étoiles de l'Est, réveillez-vous au son de la nature. »
+
+🔗 Retrouvez cet espace de travail dans votre carnet : site web vitrine.

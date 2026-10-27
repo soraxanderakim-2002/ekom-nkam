@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À valider — Ekom-Nkam uniquement</title>
+  <style>
+    :root { color-scheme: light; font-family: "Plus Jakarta Sans", system-ui, sans-serif; }
+    body { margin: 0; background: #f0f2ec; color: #082d28; }
+    header { padding: 28px 24px 12px; max-width: 1100px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    h2 { margin: 32px 0 6px; font-size: 17px; }
+    p { margin: 0; max-width: 65ch; line-height: 1.55; color: #50615a; font-size: 14px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 14px; font-size: 13px; }
+    nav a { color: #0a5c4c; }
+    .warn { margin-top: 12px; padding: 10px 12px; background: #fff8e8; border-left: 3px solid #c48a1a; font-size: 13px; color: #5a4a20; max-width: 65ch; }
+    section { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .grid { display: grid; gap: 16px; padding: 10px 0 20px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+    figure { margin: 0; background: #fff; border: 1px solid color-mix(in srgb, #082d28 12%, transparent); overflow: hidden; }
+    img { display: block; width: 100%; height: 180px; object-fit: cover; background: #d9e0d8; }
+    figcaption { padding: 10px 12px 12px; font-size: 12px; line-height: 1.4; }
+    code { font-size: 11px; word-break: break-all; }
+    footer { padding: 20px 24px 40px; max-width: 1100px; margin: 0 auto; font-size: 12px; color: #50615a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ekom-Nkam — images locales uniquement</h1>
+    <p>Toutes les photos viennent du site des chutes d’Ekom-Nkam (Wikimedia). <strong>3 max par section.</strong></p>
+    <div class="warn">
+      Pas de photo Commons d’hébergement, mairie, ministère ou plats du village à Ekom-Nkam.
+      Ces thèmes nécessitent des prises de vue sur place. Voir <code>SOURCES.md</code>.
+    </div>
+    <nav>
+      <a href="#chutes">Chutes</a>
+      <a href="#belvederes">Belvédères</a>
+      <a href="#nature">Nature</a>
+      <a href="#cadre">Cadre / patrimoine</a>
+    </nav>
+  </header>
+
+  <section id="chutes"><h2>Chutes</h2><div class="grid" data-files='["chutes/01-drone-vue-aerienne.jpg","chutes/02-chute-debit-fort.jpg","chutes/03-chute-panorama.jpg"]'></div></section>
+  <section id="belvederes"><h2>Belvédères / visite</h2><div class="grid" data-files='["belvederes/01-plateforme-face.jpg","belvederes/02-plateforme-dessus.jpg","belvederes/03-pied-de-chute-mboue.jpg"]'></div></section>
+  <section id="nature"><h2>Nature</h2><div class="grid" data-files='["nature/01-flore-vallee.jpg","nature/02-foret-tarzan.jpg","nature/03-vallee.jpg"]'></div></section>
+  <section id="cadre"><h2>Cadre / patrimoine</h2><div class="grid" data-files='["cadre/01-case-patrimoniale-mbouroukou.jpg","cadre/02-versant-mboue.jpg","cadre/03-paysage-ekom.jpg"]'></div></section>
+
+  <footer>Dossier <code>assets/a-valider/ekom-nkam/</code></footer>
+  <script>
+    document.querySelectorAll('.grid').forEach(async (grid) => {
+      const files = JSON.parse(grid.dataset.files);
+      let n = 0;
+      for (const path of files) {
+        const src = './' + path;
+        try {
+          const r = await fetch(src, { method: 'HEAD', cache: 'no-store' });
+          if (!r.ok) continue;
+        } catch { continue; }
+        n++;
+        const fig = document.createElement('figure');
+        fig.innerHTML = `<img src="${src}" alt="${path}" loading="lazy"><figcaption><strong>${n}/3</strong> <code>${path}</code></figcaption>`;
+        grid.appendChild(fig);
+      }
+      if (!n) grid.innerHTML = '<p style="color:#8a6a20;font-size:13px;grid-column:1/-1">Téléchargement en cours…</p>';
+    });
+  </script>
+</body>
+</html>

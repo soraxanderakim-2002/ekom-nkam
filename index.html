@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ekom-Nkam</title>
+  <meta name="description" content="Ekom-Nkam, village de la commune de Baré-Bakem dans le Moungo (Littoral, Cameroun). Découvrir les chutes du Nkam, l’histoire du territoire et préparer une visite prudente.">
+  <meta name="theme-color" content="#082d28">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='8' fill='%23082d28'/%3E%3Cpath d='m8 36 12-25h7l-9 25zm18 0 8-17h7l-8 17z' fill='%23f27b4a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css?v=ekom6">
+  <script src="src/main.js?v=ekom6" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <svg class="svg-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="building" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5H3Zm2 3v7m5-7v7m4-7v7m5-7v7M3 21h18"/></symbol>
+    <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="cassava" viewBox="0 0 120 120"><path d="M60 105V39M60 58C38 53 22 36 23 18c20 3 32 18 37 40Zm0 0c2-28 15-39 33-43-1 22-15 35-33 43Zm0-16C49 28 49 13 59 4c9 12 11 25 1 38ZM60 88c-16-9-31-27-33-44 17 2 30 20 33 44Zm0-11c8-24 22-35 35-34-3 17-17 30-35 34Z"/></symbol>
+    <symbol id="corn" viewBox="0 0 120 120"><path d="M59 110C40 82 29 56 31 22c9 5 16 15 24 28m6 60c19-26 33-55 34-82-16 8-24 20-32 37M46 74V26c0-29 29-29 29 0v38M60 12v76M46 28h29M46 41h29M47 54h28M50 67h21"/></symbol>
+    <symbol id="peanut" viewBox="0 0 120 120"><path d="M73 15c25-5 39 17 23 36-10 12-18 10-23 20-6 11-7 23-20 28-23 9-41-8-32-28 6-15 19-15 25-28 7-13 8-24 27-28Z"/><path d="m42 42 35 34M30 56l35 32M55 26l34 33M67 19l32 28M27 72l24 25M35 91l56-66M26 79l53-62M48 97l48-58"/></symbol>
+    <symbol id="plantain" viewBox="0 0 120 120"><path d="M91 13c8 42-9 73-57 89-14 4-27-4-26-11C60 92 81 64 81 16l10-3Zm-10 6C75 56 62 72 25 78c-12 2-19-5-18-12 35 1 57-14 64-43l10-4Zm2-6 3-8 10 2-2 10"/></symbol>
+  </svg>
+
+  <header class="site-header" id="site-header">
+    <div class="shell header-row">
+      <a class="wordmark" href="#accueil" aria-label="Ekom-Nkam, accueil"><span class="brand-symbol" aria-hidden="true">E<span>/</span></span><span>EKOM-NKAM<small>LITTORAL CAMEROUN</small></span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false"><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale"><a href="#histoire">L’histoire</a><a href="#decouvrir">Les chutes</a><a href="#lieux">Lieux</a><a href="#culture">Culture</a><a href="#gastronomie">Saveurs</a><a href="#sejour">Séjour</a></nav>
+      <a class="header-cta" href="#sejour">Préparer un séjour <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a>
+    </div>
+  </header>
+
+  <div class="story-shell">
+    <svg class="story-path" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <!-- Trace de fond + segments par chapitre + sillage + point suiveur -->
+      <path class="story-path-track" fill="none"
+        d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+      <g class="story-path-segments">
+        <path class="story-path-segment" data-path-segment="accueil" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="histoire" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="decouvrir" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="lieux" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="culture" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="gastronomie" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+        <path class="story-path-segment" data-path-segment="sejour" fill="none" d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+      </g>
+      <path class="story-path-soft" data-story-path fill="none"
+        d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+      <path class="story-path-veil" data-story-path fill="none"
+        d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+      <path class="story-path-line" id="story-path-line" data-story-path data-story-guide fill="none"
+        d="M84 1.5C96 7 94 15 81 20C62 27 38 29 24 36C8 44 14 52 32 57C55 64 86 62 90 72C94 82 78 88 61 91C42 95 28 94 22 97.5C18 99 28 99.5 42 100"/>
+    </svg>
+    <div class="story-marker" data-story-marker aria-hidden="true"></div>
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <picture class="hero-media"><img src="assets/ekom/hero-drone.jpg" width="1920" height="1080" alt="Vue aérienne des chutes d’Ekom-Nkam" fetchpriority="high"></picture>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-topline"><span class="eyebrow"><span class="signal" aria-hidden="true"></span>Village · Moungo · Littoral Cameroun</span><span class="hero-coordinate">COMMUNE DE BARÉ-BAKEM</span></div>
+        <div class="hero-copy"><p class="hero-welcome">Bienvenue à</p><h1 id="hero-title">EKOM-NKAM<span>.</span></h1><div class="hero-baseline"><span class="hero-rule" aria-hidden="true"></span><p>Les chutes du Nkam,<br>au cœur du village.</p></div><p class="hero-intro">Un territoire à découvrir avec prudence :<br>histoire, paysages documentés et repères pour la visite.</p><a class="button primary pulse" href="#histoire"><span>Commencer le récit<br>d’Ekom-Nkam</span><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></div>
+        <div class="hero-aside"><span class="side-line" aria-hidden="true"></span><span>PRENDRE LE TEMPS<br>DE DÉCOUVRIR</span></div>
+        <div class="hero-bottom"><a class="scroll-cue" href="#histoire"><span class="scroll-arrow" aria-hidden="true">↓</span><span>Le voyage commence ici<small>DÉFILER POUR EXPLORER</small></span></a><span class="visual-credit">Photo Wikimedia Commons · chutes d’Ekom-Nkam</span></div>
+      </div>
+    </section>
+
+    <aside class="territory-strip" id="institutions" aria-label="Cadre institutionnel"><div class="shell territory-row"><p class="territory-label">CADRE<br><strong>INSTITUTIONNEL</strong></p><button class="territory-item" type="button" data-source="territoire"><svg class="icon" aria-hidden="true"><use href="#building"/></svg><span>Commune de Baré-Bakem<small>INSTITUTION D’APPUI DU VILLAGE</small></span><span aria-hidden="true">↗</span></button><a class="territory-item" href="https://mintoul.gov.cm/en/site/ekom-nkam-falls/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#globe"/></svg><span>Ministère du Tourisme<small>FICHE MINTOUL · CHUTES D’EKOM-NKAM</small></span><span aria-hidden="true">↗</span></a><button class="territory-item" type="button" data-source="institutions"><svg class="icon" aria-hidden="true"><use href="#pin"/></svg><span>Ekom-Nkam<small>VILLAGE DU MOUNGO · LITTORAL</small></span><span aria-hidden="true">↗</span></button></div></aside>
+
+    <section class="history section light" id="histoire" aria-labelledby="history-title">
+      <div class="shell">
+        <div class="chapter-line"><p class="eyebrow">01 / Histoire &amp; territoire</p><span class="section-meta">DU LITTORAL AU VILLAGE</span></div>
+        <div class="history-main"><div data-reveal data-reveal-from="left"><h2 class="section-title" id="history-title">UN VILLAGE.<br>DES TRACES.<br><span class="outline-text">UNE MÉMOIRE</span><br>À ÉCOUTER.</h2></div><div class="history-copy" data-reveal data-reveal-from="right"><p class="lead">Situer Ekom-Nkam<br>avant de le raconter.</p><p>Ekom-Nkam est un village de la commune de Baré-Bakem, dans le département du Moungo, région du Littoral. Les notices le relient au <em>Dictionnaire des villages du Mungo</em> (ORSTOM, 1971).</p><p>Sur place, les sources situent les chutes d’Ekom — ou chutes du Nkam — hautes d’environ 80&nbsp;mètres. La date de fondation du village et l’étymologie locale du nom restent à recueillir auprès des habitants.</p><blockquote>« Là où les racines du passé<br>nourrissent l’avenir. »<cite>Invitation éditoriale · pas une citation d’archive</cite></blockquote><button class="text-link" type="button" data-source="histoire">D’où vient ce récit ? <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div></div>
+        <div class="history-timeline" aria-label="Repères documentaires"><article data-reveal><span class="timeline-dot" aria-hidden="true"></span><p class="timeline-date">1971</p><h3>Une trace bibliographique</h3><p>Le dictionnaire ORSTOM du Mungo est cité pour Ekom-Nkam — référence indirecte dans cette recherche.</p></article><article data-reveal><span class="timeline-dot" aria-hidden="true"></span><p class="timeline-date">1993—96</p><h3>La commune de Baré-Bakem</h3><p>Créée par démembrement de Melong, opérationnelle à partir de 1996. Contexte communal, pas fondation du village.</p></article><article data-reveal><span class="timeline-dot" aria-hidden="true"></span><p class="timeline-date">2005</p><h3>Un dénombrement historique</h3><p>La notice rapporte 188 habitants pour Mboué et Ekom-Nkam ensemble — chiffre historique, pas population actuelle.</p></article></div>
+      </div>
+    </section>
+
+    <section class="discovery" id="decouvrir" aria-labelledby="discovery-title">
+      <div class="shell discovery-intro"><div class="chapter-line"><p class="eyebrow">02 / Chutes &amp; paysages</p><span class="section-meta">TROIS REGARDS SUR LE SITE</span></div><div class="section-heading" data-reveal data-reveal-from="bottom"><h2 class="section-title" id="discovery-title">APPROCHEZ<br><span class="accent">LES CHUTES.</span></h2><p>La chute du Nkam, la forêt riveraine, la mémoire du tournage : trois lectures documentées du même lieu. Les conditions de visite restent à confirmer sur place.</p></div></div>
+      <div class="landscape-journey" id="landscape-journey">
+        <div class="landscape-stage" id="landscape-stage">
+          <article class="scene is-active" id="scene-foret" aria-labelledby="scene-title-0" data-scene="0"><picture class="scene-media"><img src="assets/ekom/scene-chute.jpg" width="1920" height="1080" alt="Chutes d’Ekom-Nkam, débit fort" loading="lazy"></picture><div class="scene-shade"></div><div class="shell scene-layout"><div class="scene-copy"><p class="eyebrow">EKOM-NKAM / LES CHUTES DU NKAM</p><h3 id="scene-title-0">LA CHUTE<br>DU <span>NKAM.</span></h3><p>Dans le village, les sources situent une chute d’environ 80&nbsp;mètres sur le fleuve Nkam. La fiche MINTOUL distingue parfois une chute « mâle » (Nkam) et une chute « femelle » (Oham). Débit, sécurité, tarifs et horaires : à vérifier avant de venir.</p><button class="text-link" type="button" data-source="chute">Explorer ce repère <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div><div class="scene-footer"><span>01 — LES CHUTES D’EKOM-NKAM</span><span>Photo Wikimedia · site d’Ekom-Nkam</span></div></div></article>
+          <article class="scene" id="scene-savane" aria-labelledby="scene-title-1" data-scene="1"><picture class="scene-media"><img src="assets/ekom/scene-foret.jpg" width="1920" height="1080" alt="Flore de la vallée près des chutes d’Ekom" loading="lazy"></picture><div class="scene-shade"></div><div class="shell scene-layout"><div class="scene-copy"><p class="eyebrow">EKOM-NKAM / FORÊT RIVERAINE</p><h3 id="scene-title-1">LA FORÊT<br>S’<span>OUVRE.</span></h3><p>Autour des chutes, la fiche MINTOUL décrit une forêt imposante et des aménagements — escaliers, garde-corps, boukarous, belvédère. Leur état actuel, comme celui des sentiers, doit être confirmé avant toute visite.</p><button class="text-link" type="button" data-source="foret">Explorer ce repère <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div><div class="scene-footer"><span>02 — LA FORÊT AUTOUR DES CHUTES</span><span>Photo Wikimedia · abords d’Ekom-Nkam</span></div></div></article>
+          <article class="scene" id="scene-rocher" aria-labelledby="scene-title-2" data-scene="2"><picture class="scene-media"><img src="assets/ekom/scene-plateforme.jpg" width="1920" height="1080" alt="Plateforme face aux chutes d’Ekom-Nkam" loading="lazy"></picture><div class="scene-shade"></div><div class="shell scene-layout"><div class="scene-copy"><p class="eyebrow">MÉMOIRE DU SITE / GREYSTOKE</p><h3 id="scene-title-2">LA MÉMOIRE<br>DU <span>TOURNAGE.</span></h3><p>Plusieurs sources associent les chutes au tournage de <em>Greystoke / La légende de Tarzan</em> (années 1980). C’est un souvenir du lieu, pas l’histoire du peuplement — ni une attraction certifiée sans confirmation locale.</p><button class="text-link" type="button" data-source="greystoke">Explorer ce repère <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div><div class="scene-footer"><span>03 — UNE MÉMOIRE CINÉMATOGRAPHIQUE</span><span>Photo Wikimedia · plateforme du site</span></div></div></article>
+          <nav class="scene-nav" aria-label="Choisir un paysage" hidden><button type="button" data-scene-target="0" aria-current="true" aria-label="Les chutes, paysage 1"><span>01</span><span class="scene-nav-line"></span></button><button type="button" data-scene-target="1" aria-label="La forêt riveraine, paysage 2"><span>02</span><span class="scene-nav-line"></span></button><button type="button" data-scene-target="2" aria-label="Mémoire du tournage, paysage 3"><span>03</span><span class="scene-nav-line"></span></button></nav>
+          <span class="scene-scroll-hint" aria-hidden="true" hidden>LE RÉCIT CONTINUE ↓</span>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="lieux section light" id="lieux" aria-labelledby="lieux-title">
+      <div class="shell">
+        <div class="chapter-line"><p class="eyebrow">02b / Lieux visitables</p><span class="section-meta">SUR LE SITE D’EKOM-NKAM</span></div>
+        <div class="section-heading" data-reveal data-reveal-from="bottom"><h2 class="section-title" id="lieux-title">VOIR<br><span class="accent">LE SITE.</span></h2><p>Plateformes, panorama et vallée : trois points de vue photographiés aux chutes d’Ekom-Nkam. L’accès se prépare : état de la piste, saison et autorisations locales à confirmer.</p></div>
+        <div class="photo-trio">
+          <figure data-reveal data-reveal-from="bottom"><img src="assets/ekom/gallery-plateforme.jpg" width="1280" height="853" alt="Plateforme au-dessus des chutes" loading="lazy"><figcaption><span>01</span> Plateforme supérieure</figcaption></figure>
+          <figure data-reveal data-reveal-from="bottom"><img src="assets/ekom/gallery-panorama.jpg" width="1280" height="853" alt="Panorama des chutes d’Ekom-Nkam" loading="lazy"><figcaption><span>02</span> Panorama de la chute</figcaption></figure>
+          <figure data-reveal data-reveal-from="bottom"><img src="assets/ekom/gallery-vallee.jpg" width="1280" height="853" alt="Vallée des chutes d’Ekom" loading="lazy"><figcaption><span>03</span> Vallée sous la chute</figcaption></figure>
+        </div>
+        <p class="lieux-note">Accès souvent cité depuis Melong&nbsp;II (route N5), puis piste d’environ 9&nbsp;km selon les sources — à vérifier selon la saison. Un accès ouest (Banwa / Mbieu) est parfois mentionné : il ne désigne pas le village d’Ekom-Nkam lui-même.</p>
+      </div>
+    </section>
+
+    <section class="culture section light" id="culture" aria-labelledby="culture-title">
+      <div class="shell">
+        <div class="chapter-line"><p class="eyebrow">03 / Culture &amp; vie locale</p><span class="section-meta">LES VOIX DU VILLAGE</span></div>
+        <div class="section-heading" data-reveal data-reveal-from="left"><h2 class="section-title" id="culture-title">PLUSIEURS<br><span class="outline-text">VOIX.</span><br>UNE TERRE.</h2><p>Les sources documentaires associent Ekom-Nkam au peuplement Baréko et, dans la fiche MINTOUL, au groupe Mbô. La culture vivante se dira avec les habitants — pas à leur place.</p></div>
+        <div class="culture-features"><article data-reveal data-reveal-from="left"><span class="feature-word" aria-hidden="true">Aa</span><div><h3>Identités à préciser</h3><p>Baréko et Mbô sont des pistes documentaires, parfois divergentes selon les sources. Langues, auto-désignations et pratiques quotidiennes restent à recueillir localement, sans imposer une identité unique.</p><button type="button" class="text-link" data-source="culture">Les repères culturels <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div></article><article data-reveal data-reveal-from="right"><span class="feature-word feature-quote" aria-hidden="true">“</span><div><h3>La place des habitants</h3><p>Récits, gestes et savoir-faire trouveront ici leur place uniquement avec l’accord des personnes qui les transmettent. Aucun rite, festival ou danse « typique » n’est inventé pour ce site.</p><span class="quiet-label">UNE DÉMARCHE DE TRANSMISSION</span></div></article></div>
+
+        <div class="photo-trio culture-photos" aria-label="Cadre local documenté">
+          <figure data-reveal><img src="assets/ekom/scene-memoire.jpg" width="1280" height="853" alt="Forêt autour des chutes d’Ekom-Nkam" loading="lazy"><figcaption><span>FORÊT</span> Abords du site</figcaption></figure>
+          <figure data-reveal><img src="assets/ekom/gallery-pied-chute.jpg" width="1280" height="853" alt="Au pied de la chute d’Ekom à Mboué" loading="lazy"><figcaption><span>ABORDS</span> Pied de chute · Mboué</figcaption></figure>
+          <figure data-reveal><img src="assets/ekom/gallery-vallee.jpg" width="1280" height="853" alt="Vallée des chutes d’Ekom" loading="lazy"><figcaption><span>VALLÉE</span> Sous la chute</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="gastronomie section light" id="gastronomie" aria-labelledby="gastronomie-title">
+      <div class="shell">
+        <div class="chapter-line"><p class="eyebrow">04 / Saveurs &amp; territoire</p><span class="section-meta">DE LA FORÊT À LA TABLE · À DOCUMENTER</span></div>
+        <div class="section-heading" data-reveal data-reveal-from="bottom">
+          <h2 class="section-title" id="gastronomie-title">D’ABORD<br>LA TERRE.<br><span class="accent">PUIS LA TABLE.</span></h2>
+          <p>Autour d’Ekom-Nkam, les sources institutionnelles évoquent la forêt riveraine et la pêche villageoise. Aucun plat « emblématique » du village n’est établi ici : les images montrent les <strong>ressources du milieu</strong>. Les recettes se construiront avec les habitants.</p>
+        </div>
+        <div class="photo-trio food-photos" aria-label="Ressources alimentaires du territoire">
+          <figure data-reveal data-reveal-from="bottom">
+            <img src="assets/ekom/gastro-foret.jpg" width="1280" height="853" alt="Flore de la vallée près des chutes d’Ekom-Nkam" loading="lazy">
+            <figcaption><span>01</span> Forêt riveraine</figcaption>
+          </figure>
+          <figure data-reveal data-reveal-from="bottom">
+            <img src="assets/ekom/gastro-eau.jpg" width="1280" height="853" alt="Vallée et cours d’eau sous les chutes d’Ekom" loading="lazy">
+            <figcaption><span>02</span> Eau &amp; vallée</figcaption>
+          </figure>
+          <figure data-reveal data-reveal-from="bottom">
+            <img src="assets/ekom/gastro-terre.jpg" width="1280" height="853" alt="Paysage des chutes d’Ekom-Nkam" loading="lazy">
+            <figcaption><span>03</span> Terre &amp; paysage</figcaption>
+          </figure>
+        </div>
+        <p class="food-source food-photos-note">Photographies Wikimedia Commons · site d’Ekom-Nkam. Ce ne sont pas des plats cuisinés.</p>
+        <div class="ingredient-grid">
+          <button class="ingredient ingredient-cassava" type="button" data-source="manioc" data-reveal><span class="ingredient-top">PISTE VIVRIÈRE <span aria-hidden="true">↗</span></span><svg class="ingredient-art" viewBox="0 0 120 120" aria-hidden="true"><use href="#cassava"/></svg><span class="ingredient-name">MANIOC</span><span class="ingredient-bottom">Ouvrir le repère <span aria-hidden="true">+</span></span></button>
+          <button class="ingredient ingredient-corn" type="button" data-source="mais" data-reveal><span class="ingredient-top">PISTE VIVRIÈRE <span aria-hidden="true">↗</span></span><svg class="ingredient-art" viewBox="0 0 120 120" aria-hidden="true"><use href="#corn"/></svg><span class="ingredient-name">MAÏS</span><span class="ingredient-bottom">Ouvrir le repère <span aria-hidden="true">+</span></span></button>
+          <button class="ingredient ingredient-peanut" type="button" data-source="arachide" data-reveal><span class="ingredient-top">PISTE VIVRIÈRE <span aria-hidden="true">↗</span></span><svg class="ingredient-art" viewBox="0 0 120 120" aria-hidden="true"><use href="#peanut"/></svg><span class="ingredient-name">ARACHIDE</span><span class="ingredient-bottom">Ouvrir le repère <span aria-hidden="true">+</span></span></button>
+          <button class="ingredient ingredient-plantain" type="button" data-source="plantain" data-reveal><span class="ingredient-top">PISTE VIVRIÈRE <span aria-hidden="true">↗</span></span><svg class="ingredient-art" viewBox="0 0 120 120" aria-hidden="true"><use href="#plantain"/></svg><span class="ingredient-name">PLANTAIN</span><span class="ingredient-bottom">Ouvrir le repère <span aria-hidden="true">+</span></span></button>
+        </div>
+        <p class="food-source">Ces quatre produits sont des pistes de conversation culinaire, pas des spécialités établies d’Ekom-Nkam. Recettes et noms locaux : à documenter sur place.</p>
+      </div>
+    </section>
+
+    <section class="stay section" id="sejour" aria-labelledby="stay-title">
+      <div class="shell">
+        <div class="chapter-line"><p class="eyebrow">05 / Hébergement &amp; séjour</p><span class="section-meta">PRÉPARER LA VISITE</span></div>
+        <div class="stay-heading" data-reveal data-reveal-from="bottom"><h2 class="section-title" id="stay-title">VENIR.<br>RESTER.<br><span>REVENIR.</span></h2><div><p class="lead">Le séjour se prépare<br>avant la route.</p><p>Selon la fiche MINTOUL, il n’y a pas d’hôtel dans le village d’Ekom-Nkam. Confirmez l’accueil, la piste et un hébergement auprès d’interlocuteurs locaux — ce site ne propose aucune réservation.</p><button class="button dark" type="button" data-dialog="visit-dialog">Préparer mon séjour <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></div></div>
+        <div class="stay-options"><article data-reveal data-reveal-from="bottom"><svg class="icon" aria-hidden="true"><use href="#pin"/></svg><p class="eyebrow">AU VILLAGE</p><h3>Ekom-Nkam</h3><p>Aucune offre d’hébergement n’a été vérifiée de première main dans le village. Des récits mentionnent parfois des chambres à l’entrée du site : piste à confirmer sur place.</p><button class="text-link" type="button" data-source="hebergement">Ce qu’il faut savoir <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></article><article data-reveal><svg class="icon" aria-hidden="true"><use href="#building"/></svg><p class="eyebrow">ÉTAPE RÉGIONALE</p><h3>Nkongsamba &amp; Moungo</h3><p>La fiche MINTOUL renvoie vers des établissements du Moungo et de Nkongsamba. Ce sont des pistes régionales, pas des recommandations ni des disponibilités garanties.</p><button class="text-link" type="button" data-source="nkongsamba">Voir la référence <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></button></article><article data-reveal><svg class="icon" aria-hidden="true"><use href="#globe"/></svg><p class="eyebrow">REPÈRE OFFICIEL</p><h3>Fiche MINTOUL</h3><p>Consultez la présentation institutionnelle des chutes d’Ekom-Nkam pour un cadre national — sans mandat ni partenariat avec ce site.</p><a class="text-link" href="https://mintoul.gov.cm/en/site/ekom-nkam-falls/" target="_blank" rel="noopener noreferrer">Ouvrir la fiche <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a></article></div>
+        <div class="stay-visual" data-reveal data-reveal-from="bottom">
+          <img src="assets/ekom/gallery-pied-chute.jpg" width="1280" height="853" alt="Au pied des chutes d’Ekom à Mboué" loading="lazy" onerror="this.src='assets/ekom/gallery-plateforme.jpg'">
+          <p>Abords du site d’Ekom-Nkam. Distinguez toujours le village, l’entrée des chutes et les villes d’étape du Moungo.</p>
+        </div>
+        <p class="stay-note">Repères uniquement — pas de disponibilité, tarif ni bouton « Réserver ». Vérifiez tout directement auprès d’un établissement ou d’un interlocuteur local.</p>
+      </div>
+    </section>
+  </main>
+  </div>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-top"><a class="wordmark" href="#accueil"><span class="brand-symbol" aria-hidden="true">E<span>/</span></span><span>EKOM-NKAM<small>LITTORAL CAMEROUN</small></span></a><p>Un village à situer.<br>Des chutes à approcher avec soin.</p><a class="back-top" href="#accueil" aria-label="Retour en haut">↑</a></div><div class="footer-bottom"><p>Prototype indépendant · Commune de Baré-Bakem, Moungo, Littoral, Cameroun</p><div><button type="button" data-source="demarche">Sources & démarche</button><button type="button" data-source="medias">Crédits des illustrations</button></div></div><p class="footer-disclaimer">Prototype indépendant. Aucun mandat, partenariat ou soutien de la commune de Baré-Bakem ni du MINTOUL n’est revendiqué. Photographies des chutes : Wikimedia Commons (voir crédits). Graphie du nom et détails locaux restent à confirmer sur place.</p></div></footer>
+
+  <dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-top"><p class="eyebrow" id="source-kicker">REPÈRE DOCUMENTAIRE</p><button class="dialog-close" type="button" aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div><h2 id="source-title"></h2><div id="source-body" class="source-body"></div><div id="source-links" class="source-links"></div></dialog>
+  <dialog id="visit-dialog" aria-labelledby="visit-title"><div class="dialog-top"><p class="eyebrow">AVANT LE DÉPART</p><button class="dialog-close" type="button" aria-label="Fermer l’aide-mémoire"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div><h2 id="visit-title">PRÉPARER<br>LA VISITE.</h2><p class="dialog-intro">Trois points à confirmer auprès d’un interlocuteur local. Ce site ne dispose pas encore de contact d’accueil vérifié.</p><ol class="visit-list"><li><span>01</span><div><h3>La destination et l’accueil</h3><p>Confirmer Ekom-Nkam (village de Baré-Bakem), l’accès aux chutes, un interlocuteur local et les conditions de visite autorisées.</p></div></li><li><span>02</span><div><h3>Le déplacement</h3><p>Vérifier transports, état de la piste (souvent citée depuis Melong&nbsp;II), saison, sécurité et autorisations de prise de vue.</p></div></li><li><span>03</span><div><h3>Le lieu de séjour</h3><p>Confirmer adresse, services, prix et disponibilité directement auprès d’un établissement. Distinguer le village, l’entrée du site et les étapes du Moungo / Nkongsamba.</p></div></li></ol><button class="button dark" id="copy-visit" type="button">Copier l’aide-mémoire <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button><p id="copy-status" role="status" class="copy-status"></p><textarea id="copy-fallback" aria-label="Aide-mémoire à copier manuellement" readonly hidden></textarea></dialog>
+  <noscript><div class="noscript-note">Le récit reste accessible sans JavaScript. Les sources détaillées sont disponibles dans la <a href="https://mintoul.gov.cm/en/site/ekom-nkam-falls/">fiche MINTOUL des chutes d’Ekom-Nkam</a>.</div></noscript>
+</body>
+</html>
